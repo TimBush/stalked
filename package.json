@@ -1,0 +1,22 @@
+{
+  "name": "stalked",
+  "version": "1.0.0",
+  "description": "A time tracker CLI",
+  "bin": {
+    "stalked": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tim Bush",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "dotenv": "^8.0.0",
+    "inquirer": "^6.5.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.9"
+  }
+}
