@@ -19,7 +19,7 @@ Options:
   -h, --help          output usage information
 
 Commands:
-  create|c <project>  Create a project
+  create|c <project>  Create a project 
   start|s <project>   Start tracking a project
   stop|e <project>    Stop tracking a project
   time|t <project>    Check the current amount of time you have worked on a project
@@ -29,7 +29,7 @@ Commands:
 
 ## Local Storage
 
-### All project information is saved locally to `localstorage.json` - You have full control over your data.
+All project information is saved locally to `localstorage.json` - You have full control over your data.
 
 
 

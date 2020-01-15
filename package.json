@@ -1,7 +1,7 @@
 {
   "name": "stalked",
   "version": "1.0.0",
-  "description": "A time tracker CLI",
+  "description": "A project time tracker CLI",
   "bin": {
     "stalked": "./index.js"
   },
