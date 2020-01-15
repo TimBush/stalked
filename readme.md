@@ -1,14 +1,17 @@
 # Stalked
+
 > A dead simple project time tracker CLI.
 
-<img src='./assets/stalkedCLI.png' alt="stalked CLI in action"></img>
+<img src='https://i.imgur.com/Gx5hpZH.png' alt="stalked CLI in action"></img>
 
 ## Install
+
 ```
 npm install stalked
 ```
 
 ## Usage
+
 ```sh
 Usage: stalked <command> [project]
 
@@ -19,7 +22,7 @@ Options:
   -h, --help          output usage information
 
 Commands:
-  create|c <project>  Create a project 
+  create|c <project>  Create a project
   start|s <project>   Start tracking a project
   stop|e <project>    Stop tracking a project
   time|t <project>    Check the current amount of time you have worked on a project
@@ -30,6 +33,3 @@ Commands:
 ## Local Storage
 
 All project information is saved locally to `localstorage.json` - You have full control over your data.
-
-
-
