@@ -12,22 +12,52 @@ npm install stalked
 
 ## Usage
 
-```sh
-Usage: stalked <command> [project]
+```
+$ stalked <command> [project]
+```
 
-Project Time Tracker
+### Create Project
 
-Options:
-  -v, --version       output the version number
-  -h, --help          output usage information
+```json
+$ stalked create new-project
+new-project has been created
+```
 
-Commands:
-  create|c <project>  Create a project
-  start|s <project>   Start tracking a project
-  stop|e <project>    Stop tracking a project
-  time|t <project>    Check the current amount of time you have worked on a project
-  delete|d <project>  Delete a given project
-  list|l              List all project names
+### Start Project
+
+```json
+$ stalked start new-project
+new-project has been started
+```
+
+### Stop Project
+
+```json
+$ stalked stop new-project
+new-project was ended on 01/13/2020 12:43:54
+You worked on this project for 0:01:30 (HH:MM:SS) this time around.
+You've worked on this project for a total of 0:10:15 (HH:MM:SS).
+```
+
+### Check Total Time on Project
+
+```json
+$ stalked time new-project
+You worked on this project for 0:01:30 (HH:MM:SS) this time around.
+```
+
+### Delete Project
+
+```json
+$ stalked delete new-project
+new-project was deleted
+```
+
+### List Project Names
+
+```json
+$ stalked list
+new-project
 ```
 
 ## Local Storage

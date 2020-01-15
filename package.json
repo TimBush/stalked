@@ -1,6 +1,6 @@
 {
   "name": "stalked",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A project time tracker CLI",
   "bin": {
     "stalked": "./index.js"
@@ -10,7 +10,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tim Bush",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/TimBush/stalked",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TimBush/stalked"
+  },
+  "keywords": [
+    "cli",
+    "time tracker",
+    "local storage"
+  ],
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.20.0",
