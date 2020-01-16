@@ -7,8 +7,9 @@
 ## Install
 
 ```
-npm install stalked
+npm install stalked -g
 ```
+***Don't forget '-g' or the '--global' flag to install the package globally.***
 
 ## Usage
 
@@ -43,7 +44,7 @@ You've worked on this project for a total of 0:10:15 (HH:MM:SS).
 
 ```json
 $ stalked time new-project
-You worked on this project for 0:01:30 (HH:MM:SS) this time around.
+You've worked on this project for a total of 0:10:15 (HH:MM:SS).
 ```
 
 ### Delete Project

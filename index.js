@@ -6,7 +6,7 @@ const chalk = require("chalk");
 const { LocalStorage } = require("./services/LocalStorage");
 const localStorage = new LocalStorage();
 
-program.version("1.0.0", "-v, --version").description("Project Time Tracker");
+program.version("1.0.2", "-v, --version").description("Project Time Tracker");
 
 program
   .name(chalk.yellow("stalked"))
